@@ -2,12 +2,46 @@
 
 .container {
     min-height: 100vh;
+    border: 3px solid blue;
     width: 800px;
     margin: 0 auto;
 }
 
 header h1 {
-    color: rgb(22, 216, 216);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(135,206,250);
     text-align: center;
+    padding: 1rem;   
+}
+
+.country {
+    border: 20px solid rgb(173,255,47);
     padding: 1rem;
+}
+
+.country h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(135,206,250);
+    text-align: center;
+    
+    padding: 1rem;
+}
+
+.country td {
+    width: 50%;
+    font-family: 'Press Start 2P', cursive;   
+    font-size: 1rem;
+}
+
+.player {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.table-row {
+    border-bottom: 3px solid black;
 }
