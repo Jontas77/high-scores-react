@@ -25,7 +25,6 @@ const WorldTable = ({ world, tableName, sorted, state }) => {
           );
         })}
       </div>
-      );
     </div>
   );
 };
